@@ -1,0 +1,126 @@
+.navBar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navBar > img {
+  height: 50px;
+}
+.navBar-rightBtn {
+  border-radius: 120px !important;
+  padding: 10px !important;
+}
+.navBar-rightAddress {
+  border: 1px solid #383c56;
+  padding: 12px 30px;
+  border-radius: 100px;
+  background-color: #2e2f39;
+  color: #fdf7df;
+}
+.navBar-rightAddress:focus {
+  outline: none;
+  border: none;
+}
+.navBar-rightAddress:hover {
+  background-color: #282332;
+}
+.modal-content {
+  background-color: #282932 !important;
+}
+.modal-title {
+  /* position: absolute;
+  left: 50%;
+  top: 13%;
+  transform: translate(-50%, -50%); */
+  color: white;
+}
+.modal-header > button > span {
+  color: #809dab;
+  font-weight: 400;
+}
+.modal-header {
+  border-bottom: 1px solid #383c56 !important;
+}
+.modal-header > button:focus {
+  border: none;
+  outline: none;
+}
+
+.modal-body {
+  color: #fdf7df;
+}
+.navBar-rightWallet {
+  display: flex;
+  flex-direction: column;
+}
+.wallet > img {
+  height: 28px;
+  width: 28px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.wallet {
+  background-color: #2e2f39 !important;
+  border-color: #383c56 !important;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center !important;
+  font-weight: 300;
+  border-radius: 120px !important;
+  padding: 10px !important;
+  justify-content: center !important;
+}
+
+.wallet:hover {
+  background-color: #282932 !important;
+  border-color: #383c56;
+}
+
+/* ANother Wallet  */
+
+.navBar-AnotherWalletInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.navBar-AnotherWalletInfoLink {
+  display: flex;
+  border: 1px solid #2e2f39;
+  margin-bottom: 10px;
+  border-radius: 120px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #fdf7df;
+  background-color: #2e2f39 !important;
+}
+.navBar-AnotherWalletInfoLink > p {
+  flex: 1;
+  text-align: center;
+  margin-top: 7px;
+}
+
+.navBar-AnotherWalletInfoLink:hover {
+  text-decoration: none;
+  color: #fdf7df;
+  background-color: #282932 !important;
+}
+
+p > svg {
+  margin-left: 8px !important;
+}
+
+.walletLogout {
+  color: #f78875 !important;
+  font-weight: 300;
+  margin-bottom: 1px;
+}
+.false {
+  padding: 10px !important ;
+  border-color: #f78875;
+  background-color: #282932;
+}
+.spinner-border {
+  color: white !important;
+}
